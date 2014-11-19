@@ -1,0 +1,29 @@
+<includeonly>
+<div class="rounded_corners container warning"><div id="row">
+   <div id="left">[[File:warning.png]]</div>
+   <div id="middle">{{#if: {{{title|}}} | <strong>{{{title}}}</strong><br />{{{content}}} | {{{content}}} }}</div>
+</div></div>
+</includeonly>
+
+<noinclude>
+== Syntax ==
+Basic syntax
+<pre>
+{{warning | title=<text>  | content= <text> }}
+</pre>
+
+This template uses [[User:Tan/common.css]]
+== Beispiel mit Titel ==
+<pre>
+{{warning | title= Das ist der Titel | content= Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mi mi, pulvinar et dignissim consectetur, tincidunt id odio. Cras sit amet erat a augue faucibus sollicitudin in vitae dolor. Praesent elementum mollis tellus in vehicula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus pharetra in leo at molestie. Fusce nec ante vitae ligula dignissim tincidunt eget eu odio. Pellentesque hendrerit risus eget est ultrices, auctor vestibulum enim mattis. Quisque sollicitudin leo ut sapien pulvinar, euismod vestibulum ante tristique. Cras semper volutpat nibh, quis elementum est.}}
+</pre>
+
+{{warning |  title= Das ist der Titel | content= Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mi mi, pulvinar et dignissim consectetur, tincidunt id odio. Cras sit amet erat a augue faucibus sollicitudin in vitae dolor. Praesent elementum mollis tellus in vehicula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus pharetra in leo at molestie. Fusce nec ante vitae ligula dignissim tincidunt eget eu odio. Pellentesque hendrerit risus eget est ultrices, auctor vestibulum enim mattis. Quisque sollicitudin leo ut sapien pulvinar, euismod vestibulum ante tristique. Cras semper volutpat nibh, quis elementum est.}}
+
+== Beispiel ohne Titel ==
+<pre>
+{{warning | content= Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mi mi, pulvinar et dignissim consectetur, tincidunt id odio. Cras sit amet erat a augue faucibus sollicitudin in vitae dolor. Praesent elementum mollis tellus in vehicula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus pharetra in leo at molestie. Fusce nec ante vitae ligula dignissim tincidunt eget eu odio. Pellentesque hendrerit risus eget est ultrices, auctor vestibulum enim mattis. Quisque sollicitudin leo ut sapien pulvinar, euismod vestibulum ante tristique. Cras semper volutpat nibh, quis elementum est.}}
+</pre>
+
+{{warning | content= Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mi mi, pulvinar et dignissim consectetur, tincidunt id odio. Cras sit amet erat a augue faucibus sollicitudin in vitae dolor. Praesent elementum mollis tellus in vehicula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus pharetra in leo at molestie. Fusce nec ante vitae ligula dignissim tincidunt eget eu odio. Pellentesque hendrerit risus eget est ultrices, auctor vestibulum enim mattis. Quisque sollicitudin leo ut sapien pulvinar, euismod vestibulum ante tristique. Cras semper volutpat nibh, quis elementum est.}}
+</noinclude>

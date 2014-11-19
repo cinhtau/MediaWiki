@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Multi-column layout via CSS</title>
+
+    <style type="text/css">
+        /* <![CDATA[ */
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-size: 80%;
+            font-family: sans-serif;
+        }
+
+        #header {
+            display: block;
+            width: 80%;
+            margin: auto;
+        }
+
+        #container {
+            width: 80%;
+            margin: auto;
+            padding: 0;
+            display: table;
+            border: 1px solid black;
+        }
+
+        #row {
+            display: table-row;
+        }
+
+        #left {
+            width: 150px;
+            padding: 1em;
+            background: #EEF;
+            display: table-cell;
+        }
+
+        #right {
+            width: 150px;
+            padding: 1em;
+            background: #FEE;
+            display: table-cell;
+        }
+
+        #middle {
+            padding: 1em;
+            background: yellow;
+            display: table-cell;
+        }
+
+        /* ]]> */
+    </style>
+
+</head>
+<body>
+<div id="header">
+    <p><a href="/archives/000177.html">Return to article</a></p>
+</div>
+
+<div id="container">
+    <div id="row">
+
+        <div id="left">
+            <h4>Left Col</h4>
+
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vestibulum rutrum, urna eget gravida
+                auctor, mauris neque tempus lorem, non condimentum sem purus et eros. Donec non lectus.
+                Phasellus eu massa. Praesent felis metus, tempor a, vehicula ut, interdum id, libero. Lorem
+                ipsum dolor sit amet, consectetuer adipiscing elit. Cras nec est. Nulla facilisi. Integer a
+                dolor. Duis vitae diam. Morbi laoreet tellus ut diam. Vestibulum lacinia congue nunc.</p>
+        </div>
+        <div id="middle">
+            <h4>Middle Col</h4>
+
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vestibulum rutrum, urna eget gravida
+                auctor, mauris neque tempus lorem, non condimentum sem purus et eros. Donec non lectus.
+                Phasellus eu massa. Praesent felis metus, tempor a, vehicula ut, interdum id, libero. Lorem
+                ipsum dolor sit amet, consectetuer adipiscing elit. Cras nec est. Nulla facilisi. Integer a
+                dolor. Duis vitae diam. Morbi laoreet tellus ut diam. Vestibulum lacinia congue nunc.</p>
+        </div>
+
+        <div id="right">
+            <h4>Right Col</h4>
+
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Vestibulum rutrum, urna eget gravida
+                auctor, mauris neque tempus lorem, non condimentum sem purus et eros. Donec non lectus.
+                Phasellus eu massa. Praesent felis metus, tempor a, vehicula ut, interdum id, libero. Lorem
+                ipsum dolor sit amet, consectetuer adipiscing elit. Cras nec est. Nulla facilisi. Integer a
+                dolor. Duis vitae diam. Morbi laoreet tellus ut diam. Vestibulum lacinia congue nunc.</p>
+        </div>
+
+    </div>
+</div>
+
+</body>

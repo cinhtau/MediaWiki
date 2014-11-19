@@ -1,0 +1,57 @@
+/* rounded on all corners with compatibility properties */
+.rounded_corners {
+    /* compality to firefox */
+    -moz-border-radius: 15px;
+    /* chrome, safari */
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
+/* Template container */
+.container {
+    clear: both;
+    margin: 2em auto;
+    padding: 15px 20px;
+    text-align: justify;
+    vertical-align: middle;
+    width: 70% !important;
+}
+
+.tip {
+    background-color: #DDFFDD;
+}
+
+.important {
+    background-color: #FFFFCC;
+}
+
+.info {
+    background-color: #DDEEFF;
+}
+
+.warning {
+    background-color: #FFE2E2;
+
+}
+
+/* Table representation use id, used in several templates */
+#row {
+    display: table-row;
+}
+
+#left {
+    width: 80px;
+    padding: 1em;
+    display: table-cell;
+}
+
+#right {
+    width: 150px;
+    padding: 1em;
+    display: table-cell;
+}
+
+#middle {
+    padding: 1em;
+    display: table-cell;
+}
