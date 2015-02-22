@@ -1,4 +1,6 @@
-/* contains all styles */
+@import "pretty-pre.css";
+@import "kbd.css";
+@import "sticky-notes.css";
 
 /* rounded on all corners with compatibility properties */
 .rounded_corners {
@@ -55,28 +57,4 @@
 
 #middle {
     display: table-cell;
-}
-
-/* Pretty pre tags, see http://perishablepress.com/perfect-pre-tags/ */
-pre {
-    width: 92%;
-    overflow: auto;
-    margin: 2rem 0px;
-    padding: 1rem 0.8rem 1rem 1.2rem;
-    color: #3F3B36;
-    border-width: 1px 1px 1px 1rem;
-    border-style: solid;
-    border-color: #F5D995;
-    -moz-border-top-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    border-image: none;
-    font: lighter 1rem/2rem Monaco,"MonacoRegular",monospace;
-    background: url("/images/pre.png") repeat scroll 0px -0.9rem / 1px 4rem transparent;
-}
-
-pre.prettyprint {
-    padding:15px;
-    border-style: dashed;
 }
