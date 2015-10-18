@@ -1,6 +1,7 @@
 @import "pretty-pre.css";
 @import "kbd.css";
 @import "sticky-notes.css";
+@import "ribbon.css";
 
 /* rounded on all corners with compatibility properties */
 .rounded_corners {
